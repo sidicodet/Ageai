@@ -67,33 +67,27 @@ export default function Layout({
       </main>
       <div className="absolute w-full border-t border-gray-200 bg-white py-5 text-center">
         <p className="text-gray-500">
-          Powered by{" "}
+          Created by{" "}
           <a
             className="font-semibold text-gray-600 transition-colors hover:text-black"
-            href="https://vercel.com"
+            href="https://sidicode.org.ng"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Vercel
+            Abdulakeem
           </a>
           ,{" "}
           <a
             className="font-semibold text-gray-600 transition-colors hover:text-black"
-            href="https://replicate.com"
+            href="https://twitter.com/mathogram"
             target="_blank"
             rel="noopener noreferrer"
           >
             Replicate
           </a>{" "}
-          and{" "}
-          <a
-            className="font-semibold text-gray-600 transition-colors hover:text-black"
-            href="https://upstash.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Upstash
-          </a>
+          with love ❤ from{" "}
+         
+            Nigeria
           .
         </p>
       </div>
