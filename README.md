@@ -9,7 +9,7 @@
 
 <p align="center">
   <a href="https://twitter.com/mathogram">
-    <img src="https://img.shields.io/twitter/follow/mathogram?style=flat&label=sidicodet&logo=twitter&color=0bf&logoColor=fff" alt="Abdulakeem Twitter follower count" />
+    <img src="https://img.shields.io/twitter/follow/mathogram?style=flat&label=mathogram&logo=twitter&color=0bf&logoColor=fff" alt="Abdulakeem Twitter follower count" />
   </a>
   <a href="https://github.com/Sidicodet/Ageai">
     <img src="https://img.shields.io/github/stars/Sidicodet/Ageai?label=Sidicodet%2FAgeai" alt="Ageai repo star count" />
