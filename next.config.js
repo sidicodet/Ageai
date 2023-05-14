@@ -3,23 +3,18 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ["images.extrapolate.workers.dev", "replicate.delivery"],
+    domains: ["images.devakimis5989.workers.dev", "replicate.delivery"],
   },
   async redirects() {
     return [
       {
         source: "/launch",
-        destination: "https://twitter.com/steventey/status/1616505632001232896",
+        destination: "https://twitter.com/mathogram",
         permanent: false,
       },
       {
         source: "/github",
-        destination: "https://github.com/steven-tey/extrapolate",
-        permanent: false,
-      },
-      {
-        source: "/deploy",
-        destination: "https://vercel.com/templates/next.js/extrapolate",
+        destination: "https://github.com/sidicodet/Ageai",
         permanent: false,
       },
       {
