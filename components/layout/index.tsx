@@ -83,7 +83,6 @@ export default function Layout({
             target="_blank"
             rel="noopener noreferrer"
           >
-            Replicate
           </a>{" "}
           with love ❤ from{" "}
          
