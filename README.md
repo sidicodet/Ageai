@@ -1,6 +1,6 @@
-<a href="https://extrapolate.app">
-  <img alt="Extrapolate – See how well you age with AI" src="https://extrapolate.app/api/og">
-  <h1 align="center">Extrapolate</h1>
+<a href="https://ageai.sidicode.org.ng">
+  <img alt="Ageai – See how well you age with AI" src="https://extrapolate.app/api/og">
+  <h1 align="center">Again </h1>
 </a>
 
 <p align="center">
@@ -8,11 +8,11 @@
 </p>
 
 <p align="center">
-  <a href="https://twitter.com/steventey">
-    <img src="https://img.shields.io/twitter/follow/steventey?style=flat&label=steventey&logo=twitter&color=0bf&logoColor=fff" alt="Steven Tey Twitter follower count" />
+  <a href="https://twitter.com/mathogram">
+    <img src="https://img.shields.io/twitter/follow/mathogram?style=flat&label=steventey&logo=twitter&color=0bf&logoColor=fff" alt="Abdulakeem Twitter follower count" />
   </a>
-  <a href="https://github.com/steven-tey/extrapolate">
-    <img src="https://img.shields.io/github/stars/steven-tey/extrapolate?label=steven-tey%2Fextrapolate" alt="Extrapolate repo star count" />
+  <a href="https://github.com/Sidicodet/Ageai">
+    <img src="https://img.shields.io/github/stars/Sidicodet/Ageai?label=Sidicodet%2FAgeai" alt="Ageai repo star count" />
   </a>
 </p>
 
@@ -26,7 +26,7 @@
 
 ## Introduction
 
-Extrapolate is an app for you to see how well you age by transforming your face with Artificial Intelligence. 100% free and privacy friendly.
+Ageai is an app for you to see how well you age by transforming your face with Artificial Intelligence. 100% free and privacy friendly.
 
 https://user-images.githubusercontent.com/28986134/213781048-d215894d-2286-4176-a200-f745b255ecbe.mp4
 
@@ -37,10 +37,6 @@ https://user-images.githubusercontent.com/28986134/213781048-d215894d-2286-4176-
 - Photos auto-delete after 24 hours (via [Upstash](https://upstash.com) qStash)
 
 ## Deploy Your Own
-
-You can deploy this template to Vercel with the button below:
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?demo-title=Extrapolate%20%E2%80%93%C2%A0See%20how%20well%20you%20age%20with%20AI&demo-description=Age%20transformation%20AI%20app%20powered%20by%20Next.js%2C%20Replicate%2C%20Upstash%2C%20and%20Cloudflare%20R2%20%2B%20Workers.&demo-url=https%3A%2F%2Fextrapolate.app%2F&demo-image=%2F%2Fimages.ctfassets.net%2Fe5382hct74si%2F4B2RUQ7DTvPgpf3Ra9jSC2%2Fda2571b055081a670ac9649d3ac0ac7a%2FCleanShot_2023-01-20_at_12.04.08.png&project-name=Extrapolate%20%E2%80%93%C2%A0See%20how%20well%20you%20age%20with%20AI&repository-name=extrapolate&repository-url=https%3A%2F%2Fgithub.com%2Fsteven-tey%2Fextrapolate&from=templates&integration-ids=oac_V3R1GIpkoJorr6fqyiwdhl17&env=REPLICATE_API_TOKEN%2CREPLICATE_WEBHOOK_TOKEN%2CCLOUDFLARE_WORKER_SECRET%2CPOSTMARK_TOKEN&envDescription=How%20to%20get%20these%20env%20variables%3A%20&envLink=https%3A%2F%2Fgithub.com%2Fsteven-tey%2Fextrapolate%2Fblob%2Fmain%2F.env.example)
 
 Note that you'll need to:
 
@@ -54,7 +50,7 @@ Note that you'll need to:
 2. Create a [Cloudflare Worker](https://workers.cloudflare.com/) using the code snippet below.
 3. Bind your worker to your R2 instance under **Settings > R2 Bucket Bindings**.
 4. For extra security, set an `AUTH_KEY_SECRET` variable under **Settings > Environment Variables** (you can generate a random secret [here](https://generate-secret.vercel.app/)).
-5. Replace all instances of `images.extrapolate.workers.dev` in the codebase with your Cloudflare Worker endpoint.
+5. Replace all instances of `images.devakimis5989.workers.dev` in the codebase with your Cloudflare Worker endpoint.
 
 <details>
 <summary>Cloudflare Worker Code</summary>
@@ -124,4 +120,4 @@ export default {
 
 ## Author
 
-- Steven Tey ([@steventey](https://twitter.com/steventey))
+- Abdulakeem ([@mathogram](https://twitter.com/mathogram))
