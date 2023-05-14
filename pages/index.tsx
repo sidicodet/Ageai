@@ -32,14 +32,14 @@ export default function Home({ count }: { count: number }) {
       >
         <motion.a
           variants={FADE_DOWN_ANIMATION_VARIANTS}
-          href="https://twitter.com/steventey/status/1616505632001232896"
+          href="https://twitter.com/mathogram"
           target="_blank"
           rel="noreferrer"
           className="mx-auto mb-5 flex max-w-fit items-center justify-center space-x-2 overflow-hidden rounded-full bg-blue-100 px-7 py-2 transition-colors hover:bg-blue-200"
         >
           <Twitter className="h-5 w-5 text-[#1d9bf0]" />
           <p className="text-sm font-semibold text-[#1d9bf0]">
-            Introducing Extrapolate
+            Introducing Ageai
           </p>
         </motion.a>
         <motion.h1
@@ -63,7 +63,7 @@ export default function Home({ count }: { count: number }) {
                     hours.
                   </p>
                   <a
-                    href="https://github.com/steven-tey/extrapolate"
+                    href="https://github.com/sidicodet/Ageai"
                     target="_blank"
                     rel="noreferrer noopener"
                     className="mt-4 rounded-full border border-black bg-black px-5 py-1.5 text-sm text-white transition-all hover:bg-white hover:text-black"
